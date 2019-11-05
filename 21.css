@@ -1,0 +1,120 @@
+@font-face {
+	font-family: 'Apercu Pro';
+    src: url('fonts/Apercu Pro Regular.otf')
+}
+@font-face {
+	font-family: 'Apercu Pro Bold';
+    src: url('fonts/Apercu Pro Bold.otf')
+}
+@font-face {
+	font-family: 'Px Grotesk';
+    src: url('fonts/Px Grotesk Screen.ttf')
+}
+body{
+    margin: 0%;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: Apercu Pro;
+    
+}
+
+.note1, .note2, .note3, .note4, .caption1, .caption2, .caption3, .caption4, .caption5, .caption6{
+    position: fixed;
+    width: 20%;
+    margin-left: 75%;
+    display: none;
+    
+/*    background-color: aqua;*/
+    z-index: 2;
+    
+}
+.container1{
+    position: absolute;
+    margin-top: 5%;
+    z-index: 1;
+}
+.button{
+    width: 40px;
+    position: fixed;
+    margin-left: 5%;
+}
+.container2{
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+    margin-bottom: 5%;
+    width: 45%;
+}
+.title{
+    margin-bottom: 10%;
+    width: 100%;
+    font-size: 25px;
+}
+
+.text{
+/*    background-color: coral;*/
+    text-indent: 15%;
+    font-size: 18px;
+    line-height: 1.4;
+}
+#image1, #image2, #image3, #image4, #image5, #image6 {
+    position: absolute;
+    width: 40%;
+    display: none;
+    pointer-events: none;
+/*     visibility: hidden; */
+    z-index: -1;
+    
+}
+.link1, .link2, .link3, .link4, .link5, .link6{
+/*    color: #15e21d;*/
+    cursor: default;
+    font-family: Apercu Pro Bold;
+}
+
+@media screen and (max-width:767px){
+    
+    .note1, .note2, .note3, .note4, .caption1, .caption2, .caption3, .caption4, .caption5, .caption6{
+        position: fixed;
+        width: 20%;
+        margin-left: 73%;
+        font-size: 13px;
+        display: none;
+  /*    background-color: aqua;*/
+        
+        z-index: 2;
+    
+    }   
+    
+    .container1{
+        width: 60%;
+        margin-left: 10%;
+        margin-right: 30%;
+        margin-bottom: 5%;
+        /*    display: flex;*/
+    }
+    
+    .text{
+/*            background-color: coral;*/
+        text-indent: 20%;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    
+    #image1, #image2, #image3, #image4, #image5, #image6 {
+        position: absolute;
+        width: 70%;
+        display: none;
+        pointer-events: none;
+        /*     visibility: hidden; */
+        z-index: -10;
+    
+    }
+    
+    .title{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-size: 20px;
+    }
+    
+}

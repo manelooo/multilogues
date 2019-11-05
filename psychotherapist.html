@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<script src="main.js"></script>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>trialogue</title>
+    <link rel="stylesheet" href="main.css">
+    
+    <script type="text/javascript">
+        
+		var headID = document.getElementsByTagName("head")[0];
+		var newCss = document.createElement('link');
+		newCss.rel = 'stylesheet';
+		newCss.type = 'text/css';
+		window._botUsername = '907265';
+		window._botName = 'psychotherapist';
+		newCss.href = "main.css";
+		var newScript = document.createElement('script');
+		newScript.src = "js/bot.js";
+		newScript.type = 'text/javascript';
+		headID.appendChild(newScript);
+		headID.appendChild(newCss);
+		</script>
+    
+    
+</head>
+    
+<body>
+    
+    <div class="container1">
+        <a href="javascript:history.back()"><img class="button" src="imagens/noun_back_2231823.png"></a>
+        
+        <div class="container2">
+            <div id="title" class=title>A psychotherapist and a human have a dialogue</div>
+            <div id="frame">
+                <div id="bot">
+                <div id="chatWindow" class="_disable basicAvatar1 basicAvatar2 basicAvatar3 basicAvatar4 basicAvatar5 basicAvatar6 basicAvatar7"></div>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script>
+        $('.button').hover(
+                function(){
+                    $('body').css('background-color', '#b2b2b2')
+                }, 
+                function() { 
+                    $('body').css('background-color', '#ffffff')
+            });
+    </script>
+</body>
+    	       
+	    
+
+</html>

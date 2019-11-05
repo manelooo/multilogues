@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>multilogues</title>
+        <link rel="stylesheet" href="24.css">
+        <link rel="icon" href="imagens/icon.png">
+                
+
+        
+    </head>
+
+    <body>
+        
+        <img id="image1" src="imagens/16.jpg">
+        <img id="image2" src="imagens/6.jpg">
+        <img id="image3" src="imagens/7.gif">
+        <img id="image4" src="imagens/8.gif">
+        <img id="image5" src="imagens/12.gif">
+        <img id="image6" src="imagens/3.jpg">
+        <img id="image7" src="imagens/10.gif">
+        <img id="image8" src="imagens/13.gif">
+        <img id="image9" src="imagens/1.png">
+        <img id="image10" src="imagens/5.gif">
+        <img id="image11" src="imagens/11.gif">
+        <img id="image12" src="imagens/18.gif">
+        <img id="image13" src="imagens/15.jpg">
+        <img id="image14" src="imagens/17.gif">
+        <img id="image15" src="imagens/9.gif">
+        <img id="image16" src="imagens/14.gif">
+        <img id="image17" src="imagens/4.jpg">
+        <img id="image18" src="imagens/2.jpeg">
+        
+    
+        
+        <div class="list2"><a class="link0">multilogues</a></div>
+        <div class="container">
+            <div class="container0">
+                <div class="pages1"><a class="pages1" href="21.html">A machine’s monologue, directed towards a human.</a></div>
+                <div class="pages2"><a class="pages2" href="22.html">A machine and a gerbil having a dialogue about eachothers’ dreams.</a></div>
+                <div class="pages3"><a class="pages3" href="23.html">A machine, a gerbil and a psychotherapist having a nonlinear, linear, trialogue.</a></div>
+            </div>
+            <div class="container01">
+                <div>A cybernetic artifact that, in a series of multilogues, explores the concepts of language, communication, and interaction between human and machine, as well as their places in the new paradigm shift of the real and virtual world (if such separation can be made). These constrains are declared, first,  by the unheard views of a machine, followed by the technological dreams of a gerbil and concluded by the (failed) attempt of a psychotherapist to serve as mediator between the two.
+                </div>
+            </div>
+            <div class="list">
+                <div class="list1"><a class="link1" >belief</a></div>
+                <div class="list1"><a class="link2" >clinamen</a></div>
+                <div class="list1"><a class="link3" >dreams</a></div>
+                <div class="list1"><a class="link4" >hardware</a></div>
+                <div class="list1"><a class="link5" >hyper-media</a></div>
+                <div class="list1"><a class="link6" >imitation game</a></div>
+                <div class="list1"><a class="link7" >interaction</a></div>
+                <div class="list1"><a class="link8" >language</a></div>
+                <div class="list1"><a class="link9" >machine</a></div>
+                <div class="list1"><a class="link10" >manipulate words</a></div>
+                <div class="list1"><a class="link11" >media</a></div>
+                <div class="list1"><a class="link12" >nonlinear</a></div>
+                <div class="list1"><a class="link13" >simulation</a></div>
+                <div class="list1"><a class="link14" >script</a></div>
+                <div class="list1"><a class="link15" >software</a></div>
+                <div class="list1"><a class="link16" >systems</a></div>
+                <div class="list1"><a class="link17" >the man</a></div>
+                <div class="list1"><a class="link18" >think</a></div>
+            </div>
+            
+            
+            
+        </div>
+        
+        <script src="js/jquery-3.3.1.js"></script>
+<!--mudar a cor-->
+        <script>
+            $('.pages2').hover(
+                function(){
+                    $('body').css('background-color', '#d8d8d8')
+                }, 
+                function() { 
+                    $('body').css('background-color', '#ffffff')
+            });
+            $('.pages3').hover(
+                function(){
+                    $('body').css('background-color', '#b2b2b2')
+                }, 
+                function() { 
+                    $('body').css('background-color', '#ffffff')
+            });
+        </script>
+<!--mostrar sinopse-->
+        <script>
+            $('.link0').hover(
+                function(){
+                    $('.container0').css('opacity', '0')
+                }, 
+                function() { 
+                    $('.container0').css('opacity', '1')
+            });
+        </script>
+        <script>
+            $('.link0').hover(
+                function(){
+                    $('.container01').css('opacity', '1')
+                }, 
+                function() { 
+                    $('.container01').css('opacity', '0')
+            });
+        </script>
+<!--mostrar as imagens-->
+        <script>
+            $(document).mousemove(function(e){
+            const height = $('#image1').height() / 1000;
+            const width = $('#image1').width() / 1000;
+                $("#image1").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link1').mouseenter(_=> {
+                $('#image1').show();
+            });
+  
+            $('.link1').mouseleave(_=> {
+                $('#image1').hide();
+            });
+            
+            
+            $(document).mousemove(function(e){
+            const height = $('#image2').height() / 1000;
+            const width = $('#image2').width() / 1000;
+                $("#image2").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link2').mouseenter(_=> {
+                $('#image2').show();
+            });
+  
+            $('.link2').mouseleave(_=> {
+                $('#image2').hide();
+            });
+            
+            
+            $(document).mousemove(function(e){
+            const height = $('#image3').height() / 1000;
+            const width = $('#image3').width() / 1000;
+                $("#image3").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link3').mouseenter(_=> {
+                $('#image3').show();
+            });
+  
+            $('.link3').mouseleave(_=> {
+                $('#image3').hide();
+            });
+            
+            
+            $(document).mousemove(function(e){
+            const height = $('#image4').height() / 1000;
+            const width = $('#image4').width() / 1000;
+                $("#image4").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link4').mouseenter(_=> {
+                $('#image4').show();
+            });
+  
+            $('.link4').mouseleave(_=> {
+                $('#image4').hide();
+            });
+            
+            
+            $(document).mousemove(function(e){
+            const height = $('#image5').height() / 1000;
+            const width = $('#image5').width() / 1000;
+                $("#image5").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link5').mouseenter(_=> {
+                $('#image5').show();
+            });
+  
+            $('.link5').mouseleave(_=> {
+                $('#image5').hide();
+            });
+            
+            
+            $(document).mousemove(function(e){
+            const height = $('#image6').height() / 1000;
+            const width = $('#image6').width() / 1000;
+                $("#image6").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link6').mouseenter(_=> {
+                $('#image6').show();
+            });
+  
+            $('.link6').mouseleave(_=> {
+                $('#image6').hide();
+            });
+            $(document).mousemove(function(e){
+            const height = $('#image7').height() / 2;
+            const width = $('#image7').width() / 1000;
+                $("#image7").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link7').mouseenter(_=> {
+                $('#image7').show();
+            });
+  
+            $('.link7').mouseleave(_=> {
+                $('#image7').hide();
+            });
+            
+            $(document).mousemove(function(e){
+            const height = $('#image8').height() / 2;
+            const width = $('#image8').width() / 1000;
+                $("#image8").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link8').mouseenter(_=> {
+                $('#image8').show();
+            });
+  
+            $('.link8').mouseleave(_=> {
+                $('#image8').hide();
+            });
+            
+            $(document).mousemove(function(e){
+            const height = $('#image9').height() / 2;
+            const width = $('#image9').width() / 1000;
+                $("#image9").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link9').mouseenter(_=> {
+                $('#image9').show();
+            });
+  
+            $('.link9').mouseleave(_=> {
+                $('#image9').hide();
+            });
+            
+            $(document).mousemove(function(e){
+            const height = $('#image10').height() / 2;
+            const width = $('#image10').width() / 1000;
+                $("#image10").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link10').mouseenter(_=> {
+                $('#image10').show();
+            });
+  
+            $('.link10').mouseleave(_=> {
+                $('#image10').hide();
+            });
+            
+            $(document).mousemove(function(e){
+            const height = $('#image11').height() / 2;
+            const width = $('#image11').width() / 1000;
+                $("#image11").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link11').mouseenter(_=> {
+                $('#image11').show();
+            });
+  
+            $('.link11').mouseleave(_=> {
+                $('#image11').hide();
+            });
+            
+            $(document).mousemove(function(e){
+            const height = $('#image12').height() / 2;
+            const width = $('#image12').width() / 1000;
+                $("#image12").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link12').mouseenter(_=> {
+                $('#image12').show();
+            });
+  
+            $('.link12').mouseleave(_=> {
+                $('#image12').hide();
+            });
+            
+            $(document).mousemove(function(e){
+            const height = $('#image13').height() / 1;
+            const width = $('#image13').width() / 1000;
+                $("#image13").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link13').mouseenter(_=> {
+                $('#image13').show();
+            });
+  
+            $('.link13').mouseleave(_=> {
+                $('#image13').hide();
+            });
+            
+            $(document).mousemove(function(e){
+            const height = $('#image14').height() / 1;
+            const width = $('#image14').width() / 1000;
+                $("#image14").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link14').mouseenter(_=> {
+                $('#image14').show();
+            });
+  
+            $('.link14').mouseleave(_=> {
+                $('#image14').hide();
+            });
+            
+            $(document).mousemove(function(e){
+            const height = $('#image15').height() / 1;
+            const width = $('#image15').width() / 1000;
+                $("#image15").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link15').mouseenter(_=> {
+                $('#image15').show();
+            });
+  
+            $('.link15').mouseleave(_=> {
+                $('#image15').hide();
+            });
+            
+            $(document).mousemove(function(e){
+            const height = $('#image16').height() / 1;
+            const width = $('#image16').width() / 1000;
+                $("#image16").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link16').mouseenter(_=> {
+                $('#image16').show();
+            });
+  
+            $('.link16').mouseleave(_=> {
+                $('#image16').hide();
+            });
+            
+            $(document).mousemove(function(e){
+            const height = $('#image17').height() / 1;
+            const width = $('#image17').width() / 1000;
+                $("#image17").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link17').mouseenter(_=> {
+                $('#image17').show();
+            });
+  
+            $('.link17').mouseleave(_=> {
+                $('#image17').hide();
+            });
+            
+            $(document).mousemove(function(e){
+            const height = $('#image18').height() / 1;
+            const width = $('#image18').width() / 1000;
+                $("#image18").css({
+                left:e.pageX-width, 
+                top:e.pageY-height
+                });
+            });
+
+            $('.link18').mouseenter(_=> {
+                $('#image18').show();
+            });
+  
+            $('.link18').mouseleave(_=> {
+                $('#image18').hide();
+            });
+        </script>
+        
+<!-- scipt para o hover de notas -->
+        <script>
+            $('.linknote1').hover(
+                function(){
+                    $('.note1').css('display', 'block')
+                }, 
+                function() { 
+                    $('.note1').css('display', 'none')
+            });
+            $('.linknote2').hover(
+                function(){
+                    $('.note2').css('display', 'block')
+                }, 
+                function() { 
+                    $('.note2').css('display', 'none')
+            });
+            $('.linknote3').hover(
+                function(){
+                    $('.note3').css('display', 'block')
+                }, 
+                function() { 
+                    $('.note3').css('display', 'none')
+            });
+            $('.linknote4').hover(
+                function(){
+                    $('.note4').css('display', 'block')
+                }, 
+                function() { 
+                    $('.note4').css('display', 'none')
+            });
+        </script>
+<!-- script para as legendas  -->
+        <script>
+            $('.link1').hover(
+                function(){
+                    $('.caption1').css('display', 'block')
+                }, 
+                function() { 
+                    $('.caption1').css('display', 'none')
+            });
+            $('.link2').hover(
+                function(){
+                    $('.caption2').css('display', 'block')
+                }, 
+                function() { 
+                    $('.caption2').css('display', 'none')
+            });
+            $('.link3').hover(
+                function(){
+                    $('.caption3').css('display', 'block')
+                }, 
+                function() { 
+                    $('.caption3').css('display', 'none')
+            });
+            $('.link4').hover(
+                function(){
+                    $('.caption4').css('display', 'block')
+                }, 
+                function() { 
+                    $('.caption4').css('display', 'none')
+            });
+            $('.link5').hover(
+                function(){
+                    $('.caption5').css('display', 'block')
+                }, 
+                function() { 
+                    $('.caption5').css('display', 'none')
+            });
+            $('.link6').hover(
+                function(){
+                    $('.caption6').css('display', 'block')
+                }, 
+                function() { 
+                    $('.caption6').css('display', 'none')
+            });
+        </script>
+    </body>
+
+</html>
